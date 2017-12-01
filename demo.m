@@ -18,6 +18,7 @@ p0 = angle(signal(:, :, isl, end));
 
 % load mat-file with coefficients of the spherical harmonic expantion of
 % the magnet inhomogeneities and the shimfield 
+% Sorry, I am not able to add this file to the repository
 load('20151101_151725_0302_B0params.mat')
 B0params
 
@@ -111,6 +112,7 @@ ylabel('fat')
 subplot(2, 2, 4)
 imagesc(abs(outParams0_graphcut.species(2).amps))
 axis off
+saveas(gcf, 'stdWFI.png')
 
 % WFI results after proposed demodulation steps
 figure('position', [1000, 0, 1000, 1000])
@@ -133,6 +135,7 @@ ylabel('fat')
 subplot(2, 2, 4)
 imagesc(abs(outParams_graphcut.species(2).amps))
 axis off
+saveas(gcf, 'proposedWFI.png')
 
 % row 1: magnitude image TE1, estimated field contributions in [Hz]
 % row 2: phase images of TE3 after demodulation of field contribution in row 1
@@ -180,3 +183,4 @@ axis off
 subplot(2, 5, 10)
 imagesc(p4)
 axis off
+saveas(gcf, 'field_contributions.png')
