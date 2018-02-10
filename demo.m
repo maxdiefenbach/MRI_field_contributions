@@ -18,7 +18,7 @@ p0 = angle(signal(:, :, isl, end));
 
 % load mat-file with coefficients of the spherical harmonic expantion of
 % the magnet inhomogeneities and the shimfield 
-% Sorry, I am not able to add this file to the repository
+% Sorry, I am not allowed to add this file to the repository
 load('20151101_151725_0302_B0params.mat')
 B0params
 
