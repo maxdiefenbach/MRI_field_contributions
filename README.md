@@ -4,7 +4,7 @@
 
 Example MATLAB code to perform the estimation and demodulation of field map contributions in magnetic resonance water&#x2013;fat imaging from the article
 
-*Diefenbach, M. N., Ruschke, S., Eggers, H., Meineke, J., Rummeny, E. J., & Karampinos, D. C., Improving chemical shift encoding-based water-fat separation based on a detailed consideration of magnetic field contributions, Magnetic Resonance in Medicine, (MRM early view), (2018).*  <http://dx.doi.org/10.1002/mrm.27097>
+*Diefenbach, M. N., Ruschke, S., Eggers, H., Meineke, J., Rummeny, E. J., & Karampinos, D. C., Improving chemical shift encoding-based water-fat separation based on a detailed consideration of magnetic field contributions, Magnetic Resonance in Medicine, 80(3), 990–1004 (2018).*  <http://dx.doi.org/10.1002/mrm.27097>
 
     @article{diefenbach18_improv_chemic_shift_encod_based,
       author =       {Maximilian N. Diefenbach and Stefan Ruschke and Holger Eggers and Jakob Meineke and Ernst J. Rummeny
@@ -12,9 +12,9 @@ Example MATLAB code to perform the estimation and demodulation of field map cont
       title =        {Improving Chemical Shift Encoding-Based Water-Fat Separation Based on a Detailed Consideration of
                       Magnetic Field Contributions},
       journal =      {Magnetic Resonance in Medicine},
-      volume =       nil,
-      number =       nil,
-      pages =        nil,
+      volume =       80,
+      number =       3,
+      pages =        {990-1004},
       year =         2018,
       doi =          {10.1002/mrm.27097},
       url =          {https://doi.org/10.1002/mrm.27097},
